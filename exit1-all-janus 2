@@ -1,0 +1,1185 @@
+
+rtspmainentrance1: {
+    type = "rtsp"
+    id = 206
+    description = "RTSP Test"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/thirteen.stream"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+jitter_buffer = true
+  jitter_buffer_size = 1024
+  rtsp_err_log = true
+ # rtsp_transport = "tcp"  // or "udp" or "udp_multicast"
+videofmtp = "profile-level-id=42e01f;packetization-mode=1;max-fr=15;max-fs=38400"
+ videobufferkf = true
+  playoutdelay_ext = true
+video_bitrate= 500000
+          video_width=640
+          video_height= 360
+rtp_force_transceiver = true
+
+
+rtsp_force_transcode = true
+          video_fps=15
+}
+
+
+rtspmainentrance2: {
+    type = "rtsp"
+    id = 488
+    description = "RTSP Test"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/fourteen.stream"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+jitter_buffer = true
+  jitter_buffer_size = 1024
+  rtsp_err_log = true
+ # rtsp_transport = "tcp"  // or "udp" or "udp_multicast"
+videofmtp = "profile-level-id=42e01f;packetization-mode=1;max-fr=15;max-fs=38400"
+ videobufferkf = true
+  playoutdelay_ext = true
+video_bitrate= 500000
+          video_width=640
+          video_height= 360
+rtp_force_transceiver = true
+
+
+rtsp_force_transcode = true
+          video_fps=15
+}
+
+
+
+
+rtsp1: {
+    type = "rtsp"
+    id = 599
+    description = "RTSP Test"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/first.stream"
+    secret = "adminpwd"  
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+jitter_buffer = true
+  jitter_buffer_size = 1024  
+  rtsp_err_log = true
+ # rtsp_transport = "tcp"  // or "udp" or "udp_multicast"
+videofmtp = "profile-level-id=42e01f;packetization-mode=1;max-fr=15;max-fs=38400"
+ videobufferkf = true
+  playoutdelay_ext = true
+video_bitrate= 500000
+          video_width=640
+          video_height= 360
+rtp_force_transceiver = true
+
+
+rtsp_force_transcode = true
+          video_fps=15
+}
+
+rtsp2: {
+    type = "rtsp"
+    id = 609
+    description = "under body bottom"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/second.stream"
+    secret = "adminpwd"  
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+jitter_buffer = true
+  jitter_buffer_size = 1024  
+  rtsp_err_log = true
+ # rtsp_transport = "tcp"  // or "udp" or "udp_multicast"
+videobufferkf = true
+  playoutdelay_ext = true
+video_bitrate= 500000
+          video_width=640
+          video_height= 360
+          video_fps=15
+rtsp_force_transcode = true
+rtp_force_transceiver = true
+videofmtp = "profile-level-id=42e01f;packetization-mode=1;max-fr=15;max-fs=38400"
+
+}
+
+rtsp3: {
+    type = "rtsp"
+    id = 142
+    description = "underbody top"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/third.stream"
+    secret = "adminpwd"  
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+jitter_buffer = true
+  jitter_buffer_size = 1024  
+  rtsp_err_log = true
+ # rtsp_transport = "tcp"  // or "udp" or "udp_multicast"
+videobufferkf = true
+  playoutdelay_ext = true
+video_bitrate= 500000
+          video_width=640
+          video_height= 360
+          video_fps=15
+rtsp_force_transcode = true
+rtp_force_transceiver = true
+videofmtp = "profile-level-id=42e01f;packetization-mode=1;max-fr=15;max-fs=38400"
+
+}
+
+
+rtsp4: {
+    type = "rtsp"
+    id = 756
+    description = "360 lpr"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/fourth.stream"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+jitter_buffer = true
+  jitter_buffer_size = 1024
+  rtsp_err_log = true
+ # rtsp_transport = "tcp"  // or "udp" or "udp_multicast"
+videobufferkf = true
+  playoutdelay_ext = true
+video_bitrate= 500000
+          video_width=640
+          video_height= 360
+          video_fps=15
+rtsp_force_transcode = true
+rtp_force_transceiver = true
+videofmtp = "profile-level-id=42e01f;packetization-mode=1;max-fr=15;max-fs=38400"
+
+}
+
+rtsp5: {
+    type = "rtsp"
+    id = 601
+    description = "360 top"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/fifth.stream"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+jitter_buffer = true
+  jitter_buffer_size = 1024
+  rtsp_err_log = true
+ # rtsp_transport = "tcp"  // or "udp" or "udp_multicast"
+        videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+rtp_force_transceiver = true
+
+
+videobufferkf = true
+  playoutdelay_ext = true
+}
+
+
+rtsp6: {
+    type = "rtsp"
+    id = 140
+    description = "RTSP Test"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/sixth.stream"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+jitter_buffer = true
+  jitter_buffer_size = 1024
+  rtsp_err_log = true
+ # rtsp_transport = "tcp"  // or "udp" or "udp_multicast"
+        videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+videobufferkf = true
+  playoutdelay_ext = true
+
+}
+
+ 
+rtsp7: {
+    type = "rtsp"
+    id = 168
+    description = "RTSP Test"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/seventh.stream"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+jitter_buffer = true
+  jitter_buffer_size = 1024
+  rtsp_err_log = true
+ # rtsp_transport = "tcp"  // or "udp" or "udp_multicast"
+        videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+videobufferkf = true
+  playoutdelay_ext = true
+
+}
+ 
+ 
+rtsp8: {
+    type = "rtsp"
+    id = 166
+    description = "RTSP Test"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/eight.stream"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+jitter_buffer = true
+  jitter_buffer_size = 1024
+  rtsp_err_log = true
+ # rtsp_transport = "tcp"  // or "udp" or "udp_multicast"
+        videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+videobufferkf = true
+  playoutdelay_ext = true
+
+}
+
+
+rtsp9: {
+    type = "rtsp"
+    id = 112
+    description = "RTSP Test"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/ninth.stream"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+jitter_buffer = true
+  jitter_buffer_size = 1024
+  rtsp_err_log = true
+ # rtsp_transport = "tcp"  // or "udp" or "udp_multicast"
+        videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+videobufferkf = true
+  playoutdelay_ext = true
+
+}
+
+
+
+rtsp10: {
+    type = "rtsp"
+    id = 199
+    description = "RTSP Test"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/tenth.stream"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+jitter_buffer = true
+  jitter_buffer_size = 1024
+  rtsp_err_log = true
+ # rtsp_transport = "tcp"  // or "udp" or "udp_multicast"
+        videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+videobufferkf = true
+  playoutdelay_ext = true
+
+}
+
+
+rtsp11: {
+    type = "rtsp"
+    id = 392
+    description = "RTSP Test"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/eleventh.stream"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+jitter_buffer = true
+  jitter_buffer_size = 1024
+  rtsp_err_log = true
+ # rtsp_transport = "tcp"  // or "udp" or "udp_multicast"
+        videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+videobufferkf = true
+  playoutdelay_ext = true
+
+}
+
+
+rtsp12: {
+    type = "rtsp"
+    id = 219
+    description = "RTSP Test"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/tewvelth.stream"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+jitter_buffer = true
+  jitter_buffer_size = 1024
+  rtsp_err_log = true
+ # rtsp_transport = "tcp"  // or "udp" or "udp_multicast"
+        videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+videobufferkf = true
+  playoutdelay_ext = true
+
+}
+
+# Lane 5
+
+ub-bottom-lane-5: {
+	type = "rtsp"
+	id = 210
+	description = "ub_bottom"
+	audio = false
+	video = true
+	url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/3701"
+	rtsp_user = "admin"
+	rtsp_pwd = "Q12345678q"
+	secret = "adminpwd"
+	rtsp_reconnect_delay = 5
+	rtsp_session_timeout = 0
+	rtsp_timeout = 10
+	rtsp_conn_timeout = 5
+	videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+break-check-lane-5: {
+	type = "rtsp"
+	id = 132
+	description = "break_check"
+	audio = false
+	video = true
+	url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/2701"
+	rtsp_user = "admin"
+	rtsp_pwd = "Q12345678q"
+	secret = "adminpwd"
+	rtsp_reconnect_delay = 5
+	rtsp_session_timeout = 0
+	rtsp_timeout = 10
+	rtsp_conn_timeout = 5
+	videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+three-360-lpr-lane-5: {
+	type = "rtsp"
+	id = 138
+	description = "360_lpr"
+	audio = false
+	video = true
+	url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/3301"
+	rtsp_user = "admin"
+	rtsp_pwd = "Q12345678q"
+	secret = "adminpwd"
+	rtsp_reconnect_delay = 5
+	rtsp_session_timeout = 0
+	rtsp_timeout = 10
+	rtsp_conn_timeout = 5
+	videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+ub-top-lane-5: {
+	type = "rtsp"
+	id = 734
+	description = "ub_top"
+	audio = false
+	video = true
+	url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/2901"
+	rtsp_user = "admin"
+	rtsp_pwd = "Q12345678q"
+	secret = "adminpwd"
+	rtsp_reconnect_delay = 5
+	rtsp_session_timeout = 0
+	rtsp_timeout = 10
+	rtsp_conn_timeout = 5
+	videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+carbon-check-lane-5: {
+	type = "rtsp"
+	id = 124
+	description = "carbon_check"
+	audio = false
+	video = true
+	url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/5801"
+	rtsp_user = "admin"
+	rtsp_pwd = "Q12345678q"
+	secret = "adminpwd"
+	rtsp_reconnect_delay = 5
+	rtsp_session_timeout = 0
+	rtsp_timeout = 10
+	rtsp_conn_timeout = 5
+	videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+
+# Lane 8
+
+ub-bottom-lane-8: {
+	type = "rtsp"
+	id = 269
+	description = "ub_bottom"
+	audio = false
+	video = true
+	url = "rtsp://localhost:8554/ub-bottom-lane8.stream"
+	rtsp_user = "admin"
+	rtsp_pwd = "Q12345678q"
+	secret = "adminpwd"
+	rtsp_reconnect_delay = 5
+	rtsp_session_timeout = 0
+	rtsp_timeout = 10
+	rtsp_conn_timeout = 5
+	videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+break-check-lane-8: {
+	type = "rtsp"
+	id = 104
+	description = "break_check"
+	audio = false
+	video = true
+	url = "rtsp://localhost:8554/break-check-lane8.stream"
+	rtsp_user = "admin"
+	rtsp_pwd = "Q12345678q"
+	secret = "adminpwd"
+	rtsp_reconnect_delay = 5
+	rtsp_session_timeout = 0
+	rtsp_timeout = 10
+	rtsp_conn_timeout = 5
+	videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+three-60-lpr-lane-8: {
+	type = "rtsp"
+	id = 145
+	description = "360_lpr"
+	audio = false
+	video = true
+	url = "rtsp://localhost:8554/360-lpr-lane8.stream"
+	rtsp_user = "admin"
+	rtsp_pwd = "Q12345678q"
+	secret = "adminpwd"
+	rtsp_reconnect_delay = 5
+	rtsp_session_timeout = 0
+	rtsp_timeout = 10
+	rtsp_conn_timeout = 5
+	videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+ub-top-lane-8: {
+	type = "rtsp"
+	id = 455
+	description = "ub_top"
+	audio = false
+	video = true
+	url = "rtsp://localhost:8554/ub-top-lane8.stream"
+	rtsp_user = "admin"
+	rtsp_pwd = "Q12345678q"
+	secret = "adminpwd"
+	rtsp_reconnect_delay = 5
+	rtsp_session_timeout = 0
+	rtsp_timeout = 10
+	rtsp_conn_timeout = 5
+	videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+carbon-check-lane-8: {
+	type = "rtsp"
+	id = 244
+	description = "carbon_check"
+	audio = false
+	video = true
+	url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/5601"
+	rtsp_user = "admin"
+	rtsp_pwd = "Q12345678q"
+	secret = "adminpwd"
+	rtsp_reconnect_delay = 5
+	rtsp_session_timeout = 0
+	rtsp_timeout = 10
+	rtsp_conn_timeout = 5
+	videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+three-360-top-lane-5: {
+	type = "rtsp"
+	id = 625
+	description = "360_top"
+	audio = false
+	video = true
+	url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/701"
+	rtsp_user = "admin"
+	rtsp_pwd = "Q12345678q"
+	secret = "adminpwd"
+	rtsp_reconnect_delay = 5
+	rtsp_session_timeout = 0
+	rtsp_timeout = 10
+	rtsp_conn_timeout = 5
+	videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+three-360-top-lane-8: {
+	type = "rtsp"
+	id = 338
+	description = "360_top"
+	audio = false
+	video = true
+	url = "rtsp://localhost:8554/360-top-lane8.stream"
+	rtsp_user = "admin"
+	rtsp_pwd = "Q12345678q"
+	secret = "adminpwd"
+	rtsp_reconnect_delay = 5
+	rtsp_session_timeout = 0
+	rtsp_timeout = 10
+	rtsp_conn_timeout = 5
+	videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+
+threesixty_lpr_lane_1: {
+    type = "rtsp"
+    id = 173
+    description = "360_lpr"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/701"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+threesixty_check_top_lane_1: {
+    type = "rtsp"
+    id = 153
+    description = "360_check_top"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/801"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+ub_top_lane_1: {
+    type = "rtsp"
+    id = 157
+    description = "ub_top"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/2301"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+ub_bottom_lane_1: {
+    type = "rtsp"
+    id = 169
+    description = "ub_bottom"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/1001"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+break_check_lane_1: {
+    type = "rtsp"
+    id = 113
+    description = "break_check"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/1301"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+threesixty_check_top_lane_2: {
+    type = "rtsp"
+    id = 164
+    description = "360_check_top"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/101"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+break_check_lane_2: {
+    type = "rtsp"
+    id = 758
+    description = "break_check"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/601"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+threesixty_lpr_lane_2: {
+    type = "rtsp"
+    id = 247
+    description = "360_lpr"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/1601"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+ub_bottom_lane_2: {
+    type = "rtsp"
+    id = 179
+    description = "ub_bottom"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/1701"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+ub_top_lane_2: {
+    type = "rtsp"
+    id = 685
+    description = "ub_top"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/1901"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+break_check_lane_3: {
+    type = "rtsp"
+    id = 229
+    description = "break_check"
+    audio = false
+    video = true
+    url = "201"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+threesixty_lpr_lane_3: {
+    type = "rtsp"
+    id = 647
+    description = "360_lpr"
+    audio = false
+    video = true
+    url = "401"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+threesixty_check_top_lane_3: {
+    type = "rtsp"
+    id = 630
+    description = "360_check_top"
+    audio = false
+    video = true
+    url = "901"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+ub_bottom_lane_3: {
+    type = "rtsp"
+    id = 301
+    description = "ub_bottom"
+    audio = false
+    video = true
+    url = "1201"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+ub_top_lane_3: {
+    type = "rtsp"
+    id = 183
+    description = "ub_top"
+    audio = false
+    video = true
+    url = "1501"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+
+break_check_lane_4: {
+    type = "rtsp"
+    id = 179
+    description = "break_check"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/301"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+threesixty_check_top_lane_4: {
+    type = "rtsp"
+    id = 454
+    description = "360_check_top"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/501"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+ub_bottom_lane_4: {
+    type = "rtsp"
+    id = 189
+    description = "ub_bottom"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/1101"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+ub_top_lane_4: {
+    type = "rtsp"
+    id = 208
+    description = "ub_top"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/2601"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+threesixty_lpr_lane_4: {
+    type = "rtsp"
+    id = 878
+    description = "360_lpr"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/1801"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+ub_top_lane_7: {
+    type = "rtsp"
+    id = 185
+    description = "ub_top"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/lane7-ub-top.stream"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+threesixty_lpr_lane_7: {
+    type = "rtsp"
+    id = 158
+    description = "360_lpr"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/lane7-360-lpr.stream"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+threesixty_check_top_lane_7: {
+    type = "rtsp"
+    id = 919
+    description = "360_check_top"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/lane7-360-check-top.stream"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+break_check_lane_7: {
+    type = "rtsp"
+    id = 122
+    description = "break_check"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/lane7-break-check.stream"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+ub_bottom_lane_7: {
+    type = "rtsp"
+    id = 135
+    description = "ub_bottom"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/lane7-ub-bottom.stream"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+ub_bottom_lane_10: {
+    type = "rtsp"
+    id = 860
+    description = "ub_bottom"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/lane10-ub-bottom.stream"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+break_check_lane_10: {
+    type = "rtsp"
+    id = 203
+    description = "break_check"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/lane10-break-check.stream"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+threesixty_lpr_lane_10: {
+    type = "rtsp"
+    id = 205
+    description = "360_lpr"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/lane10-360-lpr.stream"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+threesixty_check_top_lane_10: {
+    type = "rtsp"
+    id = 173
+    description = "360_check_top"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/lane10-360-check-top.stream"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+ub_top_lane_10: {
+    type = "rtsp"
+    id = 165
+    description = "ub_top"
+    audio = false
+    video = true
+    url = "rtsp://localhost:8554/lane10-ub-top.stream"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+carbon_check_1: {
+    type = "rtsp"
+    id = 551
+    description = "carbon_check"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/6401"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+carbon_check_2: {
+    type = "rtsp"
+    id = 472
+    description = "carbon_check"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/6301"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+carbon_check_3: {
+    type = "rtsp"
+    id = 435
+    description = "carbon_check"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/6201"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+carbon_check_4: {
+    type = "rtsp"
+    id = 405
+    description = "carbon_check"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/6101"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+carbon_check_7: {
+    type = "rtsp"
+    id = 190
+    description = "carbon_check"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/6001"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
+
+carbon_check_10: {
+    type = "rtsp"
+    id = 195
+    description = "carbon_check"
+    audio = false
+    video = true
+    url = "rtsp://admin:Q12345678q@192.168.100.20:554/Streaming/Channels/5901"
+    rtsp_user = "admin"
+    rtsp_pwd = "Q12345678q"
+    secret = "adminpwd"
+    rtsp_reconnect_delay = 5
+    rtsp_session_timeout = 0
+    rtsp_timeout = 10
+    rtsp_conn_timeout = 5
+    videofmtp = "profile-level-id=42e01f;packetization-mode=1"
+}
